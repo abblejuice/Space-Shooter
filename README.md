@@ -1,2 +1,2 @@
-# Tutorial3-Space-Shooter
+# Space-Shooter
 DIG3480
