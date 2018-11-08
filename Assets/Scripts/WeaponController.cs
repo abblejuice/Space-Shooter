@@ -6,7 +6,6 @@ public class WeaponController : MonoBehaviour
 {
 
     public GameObject shot;
-    public GameObject Player;
     public Transform shotSpawn;
     public float fireRate;
     public float delay;
@@ -15,9 +14,6 @@ public class WeaponController : MonoBehaviour
 
     void Start()
     {
-       
-        Player = GameObject.FindWithTag("Player");
-        
         audioSource = GetComponent<AudioSource>();
         InvokeRepeating("Fire", delay, fireRate);
     }
